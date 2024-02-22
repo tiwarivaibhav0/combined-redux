@@ -17,6 +17,6 @@ const toolkitCounterSlice = createSlice({
   },
 });
 
-
+console.log(toolkitCounterSlice)
 export const { increment, decrement } = toolkitCounterSlice.actions;
 export default toolkitCounterSlice.reducer;
